@@ -8,8 +8,8 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - uses: ParnabBasak/mwaa-code@master
+    - uses: actions/checkout@main
+    - uses: ParnabBasak/mwaa-code@main
       with:
         args: --acl private --follow-symlinks --delete
       env:
