@@ -8,6 +8,7 @@ from airflow.contrib.sensors.emr_step_sensor import EmrStepSensor
 from airflow.contrib.operators.emr_terminate_job_flow_operator import EmrTerminateJobFlowOperator  
 
 # Custom Operators deployed as Airflow plugins
+# Comment
 from awsairflowlib.operators.aws_glue_job_operator import AWSGlueJobOperator
 from awsairflowlib.operators.aws_glue_crawler_operator import AWSGlueCrawlerOperator
 from awsairflowlib.operators.aws_copy_s3_to_redshift import CopyS3ToRedshiftOperator  
